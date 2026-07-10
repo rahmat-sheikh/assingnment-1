@@ -229,3 +229,25 @@ nav{
     align-items: center;
     width: 100%;
 }
+
+footer {
+    background-color: #0D1B2A;
+    margin-top: 40px;
+    padding: 0 20px;  
+}
+.footer-end {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(201, 201, 201);
+    height: 60px;
+    max-width: 1200px;  
+    margin: 0 auto;  
+}
+.end ul {
+    list-style: none;        
+    display: flex;           
+    gap: 25px;              
+    margin: 0;              
+    padding: 0; 
+} 
