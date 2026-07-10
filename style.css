@@ -31,8 +31,12 @@ nav {
   padding: 15px 0;
   height: 27px;
 }
+.list {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
 .list ul {
-  text-decoration: none;
   display: flex;
   list-style: none;
   gap: 18px;
