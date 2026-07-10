@@ -6,6 +6,10 @@
     <title>Dev-Conference</title>
     <link rel="stylesheet" href="./style.css" />
     <link rel="icon" href="./image/logo-mini.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
   </head>
   <body>
     <section>
@@ -27,7 +31,7 @@
     </section>
     <main class="hero">
       <div class="about-con">
-        <h1>Code. Connect. Create</h1>
+        <h1>Code. <em>Connect</em>. Create</h1>
         <p>
           Join 4,000+ engineers, founders, and builders at the premier developer
           conference of 2026. Three days of cutting-edge talks, hands-on
@@ -51,7 +55,7 @@
           <h3>Demis Hassabis</h3>
           <h4>Co-Founder and CEO, Google DeepMind</h4>
         </div>
-         <div class="card">
+        <div class="card">
           <img src="./image/gary.png" alt="andrej" />
           <p>FRONTEND</p>
           <h3>Grary Marcus</h3>
@@ -120,73 +124,86 @@
     </section>
 
     <!-- Using Ai -->
-<section class="pre-footer-section">
-  <div class="pre-footer-container">
-    
-    <!-- 1. STATIC COUNTDOWN (numbers are fixed, but we add a pulse animation) -->
-    <div class="countdown-box">
-      <h3>⏳ Conference starts in</h3>
-      <div class="timer-wrapper">
-        <div class="timer-block">
-          <span class="days">14</span>
-          <p>Days</p>
+    <section class="pre-footer-section">
+      <div class="pre-footer-container">
+        <!-- 1. STATIC COUNTDOWN (numbers are fixed, but we add a pulse animation) -->
+        <div class="countdown-box">
+          <h3>⏳ Conference starts in</h3>
+          <div class="timer-wrapper">
+            <div class="timer-block">
+              <span class="days">14</span>
+              <p>Days</p>
+            </div>
+            <span class="colon">:</span>
+            <div class="timer-block">
+              <span class="hours">08</span>
+              <p>Hours</p>
+            </div>
+            <span class="colon">:</span>
+            <div class="timer-block">
+              <span class="minutes">46</span>
+              <p>Mins</p>
+            </div>
+            <span class="colon">:</span>
+            <div class="timer-block">
+              <span class="seconds">32</span>
+              <p>Secs</p>
+            </div>
+          </div>
+          <p class="countdown-note">* Static demo – real countdown needs JS</p>
         </div>
-        <span class="colon">:</span>
-        <div class="timer-block">
-          <span class="hours">08</span>
-          <p>Hours</p>
-        </div>
-        <span class="colon">:</span>
-        <div class="timer-block">
-          <span class="minutes">46</span>
-          <p>Mins</p>
-        </div>
-        <span class="colon">:</span>
-        <div class="timer-block">
-          <span class="seconds">32</span>
-          <p>Secs</p>
-        </div>
-      </div>
-      <p class="countdown-note">* Static demo – real countdown needs JS</p>
-    </div>
 
-    <!-- 2. STATS (social proof) -->
-    <div class="stats-box">
-      <div class="stat-item">
-        <h2>4,000+</h2>
-        <p>Attendees</p>
-      </div>
-      <div class="stat-item">
-        <h2>48+</h2>
-        <p>Tech Talks</p>
-      </div>
-      <div class="stat-item">
-        <h2>3</h2>
-        <p>Days of Networking</p>
-      </div>
-    </div>
-
-    <!-- 3. AI BADGE (visual only) -->
-    <div class="ai-box">
-      <span class="ai-badge">✨ AI‑Powered</span>
-      <p>Live transcription, smart matchmaking, and AI‑recommended sessions.</p>
-      <button class="btn-ai-demo">🎥 Explore Features</button>
-    </div>
-
-  </div>
-</section>
-    <footer>
-      <section>
-        <div class="footer-end">
-          <div>&copy; 2026 DevConf. All rights reserved.</div>
-          <div class="end">
-            <ul>
-              <li>Privacy</li>
-              <li>Terms of Service</li>
-            </ul>
+        <!-- 2. STATS (social proof) -->
+        <div class="stats-box">
+          <div class="stat-item">
+            <h2>4,000+</h2>
+            <p>Attendees</p>
+          </div>
+          <div class="stat-item">
+            <h2>48+</h2>
+            <p>Tech Talks</p>
+          </div>
+          <div class="stat-item">
+            <h2>3</h2>
+            <p>Days of Networking</p>
           </div>
         </div>
-      </section>
+
+        <!-- 3. AI BADGE (visual only) -->
+        <div class="ai-box">
+          <span class="ai-badge">✨ AI‑Powered</span>
+          <p>
+            Live transcription, smart matchmaking, and AI‑recommended sessions.
+          </p>
+          <button class="btn-ai-demo">🎥 Explore Features</button>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-container">
+        <div class="footer-top">
+          <div class="footer-logo">
+            <img src="./image/logo-mini.png" alt="DevConf Logo" />
+          </div>
+          <div class="footer-social">
+            <a href="#" aria-label="Facebook"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" aria-label="LinkedIn"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+            <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+            <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+
+        <hr class="footer-divider" />
+        <div class="footer-bottom">
+          <p>&copy; 2026 DevConf. All rights reserved.</p>
+        </div>
+      </div>
     </footer>
   </body>
 </html>
