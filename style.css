@@ -2,7 +2,14 @@
     margin: 0;
     padding: 0;
 }
-section{
+
+nav{
+    margin: 10px 8%;
+}
+.speakers{
+    margin: 10px 8%;
+}
+.price{
     margin: 10px 8%;
 }
 .btn{
@@ -141,6 +148,7 @@ nav{
     gap: 25px;
     flex-wrap: wrap;
 }
+
 .card-price{
     background-color: rgb(252, 249, 249);
     padding: 35px 25px;
@@ -158,10 +166,13 @@ nav{
 .card-price p{
     font-weight: 600;
     color: rgb(133, 133, 133);
-    /* margin-bottom: 20px; */
+   
 }
 .card-price hr{
     margin: 15px 0;
+}
+.card-price  ul li::marker {
+    color: #2563EB;  
 }
 .card-price ul{
     padding-bottom: 25px;
@@ -195,7 +206,9 @@ nav{
     flex-direction: column;
 
 }
-
+.pro ul li::marker {
+    color: #60A5FA; 
+}
 .pro h1{
     font-size: 34px;
     color: #ffffff;
